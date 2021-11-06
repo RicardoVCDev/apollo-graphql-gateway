@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@apollo/gateway": "^0.43.1",
+    "apollo-server": "^3.5.0"
+  },
+  "name": "apollo-graphql-gateway",
+  "version": "1.0.0",
+  "description": "GraphQL API Gateway with federation using Apollo",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "\"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "jon",
+  "license": "ISC"
+}
