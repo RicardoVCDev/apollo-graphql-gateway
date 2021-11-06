@@ -2,7 +2,7 @@ type Query {
     account(id: ID): Account
 }
 
-type Account @key(fields: "id") @key(fields: "customerId") {
+type Account {
     id: ID
     customerId: ID
     currency: Currency
