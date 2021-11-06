@@ -1,0 +1,14 @@
+type Query {
+    account(id: ID): Account
+}
+
+type Account @key(fields: "id") @key(fields: "customerId") {
+    id: ID
+    customerId: ID
+    currency: Currency
+}
+
+enum Currency {
+    SGD,
+    USD
+}
