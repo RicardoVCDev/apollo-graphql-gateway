@@ -2,7 +2,7 @@
 *.iml
 /**/*.iml
 /gateway/.DS_Store
-/gateway/node_modules
+# /gateway/node_modules
 /account-graphql-dgs/target/
 /customer-graphql-dgs/target/
 /.idea/
